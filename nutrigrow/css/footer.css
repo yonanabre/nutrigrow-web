@@ -1,0 +1,29 @@
+.footer{
+	padding-right: 100px;
+	padding-left: 100px;
+	color: black;
+}
+
+.col{
+	border-left: 1px; 
+	border-left-style: solid;
+	border-left-color: gray;
+}
+.divider {
+  display: flex;
+  margin: 16px 0;
+  align-items:center;
+}
+
+.divider::before, .divider::after {
+  flex:1;
+  height: 1px; 
+  background:#AAA;
+  content: '';
+}
+.divider::before {
+  margin-right:24px;
+}
+.divider::after {
+  margin-left:24px;
+}
